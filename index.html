@@ -27,7 +27,7 @@
         </div>
         <!-- Thiệp chúc mừng -->
         <div id="greetingCard">
-            <h2>🎂 Chúc mừng sinh nhật Em ✨</h2>
+            <h2>❤️ Happy Valentine Day ✨</h2>
             <p id="greetingText"></p>
         </div>
         <script language="javascript">
@@ -128,7 +128,7 @@
                     init: function () {
                         S.Drawing.init('.canvas');
                         document.body.classList.add('body--ready');
-                        S.UI.simulate("#countdown 3|HAPPY BIRTH DAY|EM BÉ | HÀ PHƯƠNG|TRÒN 18 TỦI|❤️");
+                        S.UI.simulate("#countdown 3|HAPPY VALENTINE DAY|EM BÉ | HÀ PHƯƠNG|❤️");
                         S.Drawing.loop(function () {
                             S.Shape.render();
                         });
@@ -601,10 +601,16 @@
         const greetingCard = document.getElementById('greetingCard');
         greetingCard.style.display = 'block';
         // Viết chữ động cho thiệp
-        typeWriter(`Hôm nay là một ngày đặc biệt, không chỉ vì là ngày Em đến với thế giới này, mà còn vì nhờ có Em, thế giới xung quanh đã trở nên tươi đẹp hơn rất nhiều.
-        Tuổi mới, mong rằng Em luôn mạnh khỏe, hạnh phúc và đạt được tất cả những điều mình mong muốn. Riêng Anh chỉ mong được ở bên, nhìn thấy nụ cười của Em mỗi ngày, thế là đủ 💕.
-        Chúc Em một sinh nhật ngọt ngào và ấm áp. Và nếu có thể, Anh hy vọng rằng Anh sẽ là một phần trong những niềm vui của Em từ hôm nay trở đi 💕.
-        Happy Birthday!`, 'greetingText', 50);  
+        // typeWriter(`Hôm nay là một ngày đặc biệt, không chỉ vì là ngày Em đến với thế giới này, mà còn vì nhờ có Em, thế giới xung quanh đã trở nên tươi đẹp hơn rất nhiều.
+        // Tuổi mới, mong rằng Em luôn mạnh khỏe, hạnh phúc và đạt được tất cả những điều mình mong muốn. Riêng Anh chỉ mong được ở bên, nhìn thấy nụ cười của Em mỗi ngày, thế là đủ 💕.
+        // Chúc Em một sinh nhật ngọt ngào và ấm áp. Và nếu có thể, Anh hy vọng rằng Anh sẽ là một phần trong những niềm vui của Em từ hôm nay trở đi 💕.
+        // Happy Birthday!`, 'greetingText', 50);  
+        typeWriter(`Hôm nay là một ngày đặc biệt ngày valentine đầu tiên của chúng ta.
+        Anh biết rằng anh còn nhiêu điều chưa làm được cho Em, nhưng anh sẽ cố gắng từng ngày để trở thành người mà Em có thể tự hào khi ở bên cạnh.
+        Anh mong rằng được ở bên, nhìn thấy nụ cười của Em mỗi ngày, thế là đủ 💕.
+        Chúc chúng ta một ngày valentine tuyệt vời! Và sẽ đồng hành cùng nhau không chỉ ngày Valentine mà còn nhiều dịp lễ khác nữa và đến mãi sau này 💕.
+        Anh chỉ muốn nói rằng, Em là người đặc biệt nhất trong cuộc đời Anh, và Anh yêu và thương Em bé nhiều lắm💕. Yêu Em!
+        Happy Valentine Day!`, 'greetingText', 50);  
             // Cập nhật trạng thái để không hiển thị lại
             isGreetingDisplayed = true;
         });
