@@ -124,9 +124,9 @@ img#logo {
 
 /* Nội dung */
 #greetingCard p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Great Vibes', cursive;
-    line-height: 1;
+    line-height: 1.2;
     color: #444;
     white-space: pre-line;
 }
