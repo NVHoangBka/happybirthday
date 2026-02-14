@@ -88,8 +88,9 @@ img#logo {
     z-index: 10;
     font-family: 'Great Vibes', cursive;
     color: black;
-    width: 90%;
-    max-width: 1000px;
+    width: 80%;
+    height: 80%;
+    max-width: 750px;
     animation: popup 0.8s ease forwards;
     border: 3px solid #ff80b0;
     overflow: hidden;
@@ -113,8 +114,8 @@ img#logo {
 /* Tiêu đề */
 #greetingCard h2 {
     color: #ff4081;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin: 0px;
     text-align: center;
     text-shadow: 0 0 10px rgba(255, 64, 129, 0.6);
     animation: bounce 1.5s infinite;
@@ -123,11 +124,11 @@ img#logo {
 
 /* Nội dung */
 #greetingCard p {
-    font-size: 32px;
+    font-size: 18px;
     font-family: 'Great Vibes', cursive;
-    line-height: 1.7;
+    line-height: 1;
     color: #444;
-    white-space: pre-line; /* Xuống dòng đúng theo text */
+    white-space: pre-line;
 }
 
 /* Animation hiện popup */
